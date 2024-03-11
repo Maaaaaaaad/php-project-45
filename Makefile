@@ -1,3 +1,7 @@
-brain-games:
-	./bin/brain-games
+validate:
 	composer validate
+
+brain-games:
+
+	./bin/brain-games
+

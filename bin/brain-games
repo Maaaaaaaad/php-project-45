@@ -1,3 +1,4 @@
- #!/usr/bin/php
-
- echo "Welcome to the Brain Games!";
+#!/usr/bin/php
+<?php
+include ("src/Cli.php");
+?>
