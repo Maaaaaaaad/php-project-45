@@ -7,9 +7,13 @@
     },
     "authors": [
         {
-            "name": "guginott",
-            "email": "146447689+guginott@users.noreply.github.com"
+            "name": "Maaaaaaaad",
+            "email": "wowa-iff@yandex.ru"
         }
     ],
-    "require": {}
+    "bin": [
+        "bin/brain-games"
+    ],
+    "license": "MIT",
+    "description": "education"
 }
