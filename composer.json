@@ -1,6 +1,10 @@
 {
     "name": "hexlet/code",
     "autoload": {
+        "files": [
+            "src/Game/Check.php",
+            "src/Game/Engine.php"
+        ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
         }
@@ -12,11 +16,15 @@
         }
     ],
     "bin": [
-        "bin/brain-games"
+        "bin/brain-games",
+        "bin/brain-even"
     ],
     "license": "MIT",
     "description": "education",
     "require": {
         "wp-cli/php-cli-tools": "^0.11.22"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.9"
     }
 }
