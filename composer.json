@@ -2,7 +2,7 @@
     "name": "hexlet/code",
     "autoload": {
         "files": [
-            "src/Game/Even.php"
+            "src/Games/Even.php"
         ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
@@ -16,7 +16,8 @@
     ],
     "bin": [
         "bin/brain-games",
-        "bin/brain-even"
+        "bin/brain-even",
+        "bin/brain-calc"
     ],
     "license": "MIT",
     "description": "education",

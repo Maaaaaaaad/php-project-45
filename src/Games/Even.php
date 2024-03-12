@@ -1,10 +1,9 @@
 <?php
 
-namespace BrainGames\Game\Check;
+namespace BrainGames\Games\Even;
 
 
 require_once __DIR__ . '/../../vendor/autoload.php';
-
 
 
 use function cli\line;
@@ -16,9 +15,9 @@ define('MIN_POINT', 0);
 define('ROUND', 3);
 
 
-function play()
+function play(): void
 {
-    line('Welcome to the Brain Game!');
+    line('Welcome to the Brain Games!');
     $name = prompt('May I have your name?');
     line("Hello, $name");
     line(GAME_DESCRIPTION);
