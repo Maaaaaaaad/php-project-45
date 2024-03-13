@@ -7,15 +7,17 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use function cli\line;
 use function cli\prompt;
 
-function run ($answer, $correctAnswer)
+const ROUND = 3;
+
+function run (string $gameDescription, callable $round)
 {
     line('Welcome to the Brain Games!');
     $name = prompt('May I have your name?');
     line("Hello, $name");
-    line(GAME_DESCRIPTION);
+    line($gameDescription);
 
     for ($i=0; $i < ROUND; $i++) {
-
+        [$answer, $correctAnswer] = $round();
         if ($answer == $correctAnswer) {
             line('Correct!');
         } else {
