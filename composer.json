@@ -4,7 +4,8 @@
         "files": [
             "src/Games/Even.php",
             "src/Engine.php",
-            "src/Games/Calc.php"
+            "src/Games/Calc.php",
+            "src/Games/Gcd.php"
         ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
@@ -19,7 +20,8 @@
     "bin": [
         "bin/brain-games",
         "bin/brain-even",
-        "bin/brain-calc"
+        "bin/brain-calc",
+        "bin/brain-gcd"
     ],
     "license": "MIT",
     "description": "education",

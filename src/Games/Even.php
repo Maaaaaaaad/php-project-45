@@ -1,6 +1,6 @@
 <?php
 
-namespace BrainGames\Games\Even;
+namespace BrainGames\Games\dEven;
 
 
 require_once __DIR__ . '/../../vendor/autoload.php';
