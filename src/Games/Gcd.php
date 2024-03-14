@@ -14,7 +14,7 @@ use function BrainGames\Engine\run;
 use function cli\line;
 use function cli\prompt;
 
-const GAME_DESCRIPTION = "What is the result of the expression?";
+const GAME_DESCRIPTION = "Find the greatest common divisor of given numbers.";
 const MAX_POINT = 100;
 const MIN_POINT = 0;
 
