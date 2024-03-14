@@ -18,7 +18,12 @@ const GAME_DESCRIPTION = "Find the greatest common divisor of given numbers.";
 const MAX_POINT = 100;
 const MIN_POINT = 0;
 
-function gcd($firstPoint, $secondPoint)
+/**
+ * @param $firstPoint
+ * @param $secondPoint
+ * @return float|int
+ */
+function gcd($firstPoint, $secondPoint): float|int
 {
     return ($firstPoint % $secondPoint) ? gcd($secondPoint, $firstPoint % $secondPoint) : abs($secondPoint);
 }
