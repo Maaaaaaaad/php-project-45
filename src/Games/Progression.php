@@ -39,7 +39,7 @@ function play()
 
         $correctAnswer = array_rand(array_flip($array));
 
-        $array [array_search($correctAnswer, $array)] = "..";
+        $array [array_search($correctAnswer, $array, false)] = "..";
 
 
         $question = implode(' ', $array);
