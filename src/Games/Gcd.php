@@ -19,7 +19,7 @@ const MAX_POINT = 100;
 const MIN_POINT = 0;
 
 
-function gcd($firstPoint, $secondPoint) : int
+function gcd($firstPoint, $secondPoint): int
 {
     return ($firstPoint % $secondPoint) ? gcd($secondPoint, $firstPoint % $secondPoint) : abs($secondPoint);
 }
