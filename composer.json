@@ -7,7 +7,8 @@
             "src/Games/Calc.php",
             "src/Games/Gcd.php",
             "src/Games/Progression.php",
-            "src/Games/Prime.php"
+            "src/Games/Prime.php",
+            "src/Cli.php"
         ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
