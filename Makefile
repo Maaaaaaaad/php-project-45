@@ -14,3 +14,5 @@ brain-gcd:
 	./bin/brain-gcd
 brain-progres:
 	./bin/brain-progression
+brain-prime:
+	./bin/brain-prime
