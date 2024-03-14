@@ -1,7 +1,6 @@
 <?php
 
-namespace BrainGames\Games\dEven;
-
+namespace BrainGames\Games\Even;
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 
@@ -25,23 +24,7 @@ function play()
         $correctAnswer = $question % 2 == 0 ? 'yes' : 'no';
 
         return [$answer, $correctAnswer];
-};
+    };
 
     run(GAME_DESCRIPTION, $round);
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

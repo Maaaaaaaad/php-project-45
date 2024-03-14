@@ -2,7 +2,6 @@
 
 namespace BrainGames\src\Games\Calc;
 
-
 require_once __DIR__ . '/../../vendor/autoload.php';
 
 use function BrainGames\Engine\run;
@@ -23,7 +22,7 @@ function play()
         $secondPoint = rand(MIN_POINT, MAX_POINT);
         $randomValue = array_rand(array_flip(['*', '+', '-']));
 
-        line("Question: {$firstPoint} {$randomValue} {$secondPoint}" );
+        line("Question: {$firstPoint} {$randomValue} {$secondPoint}");
 
         $answer = prompt('Your answer');
 
@@ -40,6 +39,4 @@ function play()
     };
 
     run(GAME_DESCRIPTION, $round);
-
 }
-

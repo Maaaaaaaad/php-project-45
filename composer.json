@@ -5,7 +5,8 @@
             "src/Games/Even.php",
             "src/Engine.php",
             "src/Games/Calc.php",
-            "src/Games/Gcd.php"
+            "src/Games/Gcd.php",
+            "src/Games/Progression.php"
         ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
@@ -21,7 +22,8 @@
         "bin/brain-games",
         "bin/brain-even",
         "bin/brain-calc",
-        "bin/brain-gcd"
+        "bin/brain-gcd",
+        "bin/brain-progression"
     ],
     "license": "MIT",
     "description": "education",
