@@ -20,7 +20,7 @@ const MIN_POINT = 0;
 
 
 
-function game($question): bool
+function game(int $question): bool
 {
     if ($question < 2) {
         return false;
