@@ -21,7 +21,23 @@ const MIN_POINT = 0;
 
 function gcd(int $firstPoint, int $secondPoint): int
 {
-    return ($firstPoint % $secondPoint) ? gcd($secondPoint, $firstPoint % $secondPoint) : abs($secondPoint);
+    $result = [];
+    $result2 = [];
+
+    for ($i = 1; $i <= $firstPoint; $i++) {
+        if ($firstPoint % $i == 0) {
+            $result [] = $i;
+        }
+    }
+    for ($i = 1; $i <= $firstPoint; $i++) {
+        if ($secondPoint % $i == 0) {
+            $result2 [] = $i;
+        }
+    }
+
+    $root = array_intersect($result, $result2);
+
+    return (array_pop($root));
 }
 
 function play()
